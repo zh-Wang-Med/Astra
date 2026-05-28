@@ -11,7 +11,7 @@ Taken together, **Astra represents a transformative step toward generalizable fo
 ![Overview](fig/overview.png)
 
 ## 📖 Benchmark
-![Benchmark](fig/fig3_merge.png)
+![Benchmark](fig/fig3_merge.jpg)
 
 ## 📁 Repository Structure
 Code including:
