@@ -10,14 +10,16 @@ Taken together, **Astra represents a transformative step toward generalizable fo
 ## 📖 Overview
 ![Overview](fig/overview.png)
 
+## 📖 Benchmark
+![Benchmark](fig/fig3_merge.png)
+
+## 📁 Repository Structure
 Code including:
 
 * 📝 **Supervised Fine-Tuning (SFT)** for CT report generation
 * 🎯 **Reinforcement Learning with GRPO** for reward-guided report generation optimization
 * 🏷️ **Ensemble Classification** for multi-label disease classification
 * 🔬 **Scaling Pretraining** for large-scale 3D CT visual encoder pretraining 
-
-## 📁 Repository Structure
 
 ```text
 astra_open/
