@@ -1,6 +1,4 @@
-# Astra
-
-## A generalizable report generation foundation model for 3D computed tomography
+# Astra: a generalizable report generation foundation model for 3D computed tomography
 
 **Intrinsic inconsistencies in reporting style and diagnostic terminology** across cohorts make naive joint training prone to noisy textual supervision, thereby limiting model generalizability. Here we present Astra, a generalizable CT report generation foundation model trained on 90,678 thoracoabdominal CT–report pairs (CTRgDB) with 353,671 abnormalities spanning eight organ systems. By harmonizing report style and further refining diagnostic consistency via reinforcement learning, Astra achieves style-consistent and diagnostically accurate report generation across diverse anatomical regions and institutions. 
 
