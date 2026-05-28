@@ -5,6 +5,7 @@
 **Astra** is a generalizable foundation model designed for automated report generation from 3D computed tomography (CT) scans.
 
 ## 📖 Overview
+![Overview](fig/overview.png)
 
 Astra supports multiple training and evaluation stages for 3D CT understanding, including:
 
