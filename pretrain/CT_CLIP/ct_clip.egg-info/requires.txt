@@ -1,0 +1,14 @@
+beartype
+einops>=0.6
+ftfy
+regex
+torchvision
+XlsxWriter
+h5py
+matplotlib
+seaborn
+wilds
+click
+appdirs
+attr
+nltk

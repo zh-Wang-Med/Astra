@@ -1,0 +1,13 @@
+README.md
+setup.py
+ct_clip/__init__.py
+ct_clip/ct_clip.py
+ct_clip/distributed.py
+ct_clip/mlm.py
+ct_clip/tokenizer.py
+ct_clip/visual_ssl.py
+ct_clip.egg-info/PKG-INFO
+ct_clip.egg-info/SOURCES.txt
+ct_clip.egg-info/dependency_links.txt
+ct_clip.egg-info/requires.txt
+ct_clip.egg-info/top_level.txt

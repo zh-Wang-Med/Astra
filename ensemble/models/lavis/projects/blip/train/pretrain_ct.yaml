@@ -1,0 +1,61 @@
+ # Copyright (c) 2022, salesforce.com, inc.
+ # All rights reserved.
+ # SPDX-License-Identifier: BSD-3-Clause
+ # For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
+
+model:
+  arch: blip_pretrain_vit
+
+  model_type: fvlp
+  ckpt_path:
+  load_pretrained: False
+  load_finetuned: False
+  
+  max_txt_len: 384
+  max_txt_len_conc: 200
+  max_txt_len_desc: 200
+
+  queue_size: 0
+  alpha: 0.5
+
+datasets:
+  coco_caption:
+    vis_processor:
+        train:
+          name: "blip_image_train"
+          image_size: 224
+    text_processor:
+        train:
+          name: "blip_caption"
+
+run:
+  task: image_text_pretrain
+  # optimizer
+  # lr_sched: "linear_warmup_step_lr"
+  # lr_decay_rate: 0.9
+  lr_sched: "linear_warmup_cosine_lr"
+  init_lr: 1e-4
+  min_lr: 1e-6
+  warmup_lr: 1e-6
+
+  weight_decay: 0.05
+  max_epoch: 20
+  batch_size_train: 14
+  batch_size_eval: 8
+  num_workers: 16
+  warmup_steps: 377
+  log_freq: 1
+
+  seed: 42
+  output_dir: "../multi-modal-results/pretrain_ckpts"
+
+  amp: False
+  resume_ckpt_path:
+
+  evaluate: False
+  train_splits: ["train"]
+
+  device: "cuda"
+  world_size: 1
+  dist_url: "env://"
+  distributed: True
