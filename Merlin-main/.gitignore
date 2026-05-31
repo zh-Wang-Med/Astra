@@ -1,6 +1,0 @@
-**/abct_data
-**/abct_data_cache
-**/__pycache__/
-**/*.egg-info/
-**/checkpoints/
-dist/*
