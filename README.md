@@ -19,12 +19,10 @@ Code including:
 * 📝 **Supervised Fine-Tuning (SFT)** for CT report generation
 * 🎯 **Reinforcement Learning with GRPO** for reward-guided report generation optimization
 * 🏷️ **Ensemble Classification** for multi-label disease classification
-* 🔬 **Scaling Pretraining** for large-scale 3D CT visual encoder pretraining 
+* 🔬 **Scaling Pretraining** for large-scale 3D CT visual encoder pretraining
+  
 code is coming soon
 
 
-## 📌 Notes
-
-Please make sure that the required datasets, pretrained checkpoints, and configuration files are correctly prepared before launching each training stage.
 
 
