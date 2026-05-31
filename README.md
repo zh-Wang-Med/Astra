@@ -20,7 +20,7 @@ Code including:
 * 🎯 **Reinforcement Learning with GRPO** for reward-guided report generation optimization
 * 🏷️ **Ensemble Classification** for multi-label disease classification
 * 🔬 **Scaling Pretraining** for large-scale 3D CT visual encoder pretraining 
-
+RL, ensemble, scaling code is coming soon
 ```text
 astra_open/
 ├── pretrain/                           # Scaling pretraining
