@@ -2,7 +2,7 @@
 
 ## 📰 News
 
-- **2026-08-03** — 🎉 The weight of Astra is available in https://huggingface.co/zzzwzh/Astra_CTRG, and we give a infer demo.
+- **2026-08-03** — 🎉 The weight of Astra is available in https://huggingface.co/zzzwzh/Astra_CTRG, and we give a infer demo infer_one_ct.py.
 - **2026-07-28** — 🎉 The source code for Astra is now publicly available!
 
 ## 📖 Overview
